@@ -12,30 +12,6 @@ spec:
     path: /home/kdvolder/git/application-accelerator-samples/demo-input-types
 ---
 apiVersion: accelerator.tanzu.vmware.com/v2
-kind: Accelerator
-metadata:
-  name: bug-19795-custom-type-array
-spec:
-  displayName: Bug 19795 Reproducer
-  description: Who cares?
-  tags:
-    - bug
-  localFile: 
-    path: /home/kdvolder/git/application-accelerator-samples/bug-19795-reproducer   
----
-apiVersion: accelerator.tanzu.vmware.com/v2
-kind: Accelerator
-metadata:
-  name: bug-19831-checkboxed-custom-type-array
-spec:
-  displayName: Bug 19831 Reproducer
-  description: Who cares?
-  tags:
-    - bug
-  localFile: 
-    path: /home/kdvolder/git/application-accelerator-samples/bug-19831-reproducer   
----
-apiVersion: accelerator.tanzu.vmware.com/v2
 kind: Fragment
 metadata:
   name: java-version
